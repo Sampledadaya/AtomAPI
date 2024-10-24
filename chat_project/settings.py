@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'chat_app',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -125,4 +126,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
+ASGI_APPLICATION = 'your_project_name.asgi.application'
