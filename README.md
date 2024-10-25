@@ -13,7 +13,7 @@
 
 ```
 https://github.com/Sampledadaya/AtomAPI.git
-cd AtomAPI
+cd chat_project
 ```
 ### 2. Запуск проекта
 ```
